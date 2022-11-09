@@ -16,4 +16,4 @@ Navigate to the project settings page: https://vercel.com/<org>/<project>/settin
 
 Override the `Root Directory` to be `documentation`.
 
-<img src="../images/vercel-settings-root-directory.jpg" alt="Vercel Root Directory setting">
+<img src="/images/vercel-settings-root-directory.jpg" alt="Vercel Root Directory setting">
