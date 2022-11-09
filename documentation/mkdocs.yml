@@ -1,6 +1,13 @@
 site_name: MkDocs Vercel Test
 
 theme:
-  name: material
-  palette:
-    scheme: slate
+  name: 'material'
+  icon:
+    logo: material/gas-station
+  favicon: https://fueled.com/favicon.ico
+  feature:
+    - instant
+    - tabs
+
+extra_css:
+  - css/extras.css
