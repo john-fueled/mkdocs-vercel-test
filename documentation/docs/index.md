@@ -1,20 +1,36 @@
-# MkDocs Vercel Test
+# Demo
 
 This is an example MkDocs project deployed to Vercel.
 
-Vercel automatically detects the contents of this repo and automatically runs `pip install` and runs the `mkdocs build` command to generate the pages.
+## Project Structure
+
+Vercel can connect to a Github repository and deploy the contents based on a given subfolder within the repository.
+
+This project contains the `documentation` subfolder where the MkDocs content and config files live.
+
+Vercel automatically detects the contents of this repository, runs `pip install` and the `mkdocs build`, in order to generate the pages that will be hosted.
 
 ## Github Repository
 
-This sample repository can be found here: https://github.com/john-fueled/mkdocs-vercel-test
+This sample repository can be found here: [https://github.com/john-fueled/mkdocs-vercel-test](https://github.com/john-fueled/mkdocs-vercel-test)
 
-## Deployment
+## Create Vercel Project
 
-Vercel can connect to a Github repo and deploy the contents based on the subfolder in the repo.
+Create a new Vercel project by navigating to: [https://vercel.com/new](https://vercel.com/new)
 
-This project contains the `documentation` subfolder where this MkDocs project lives.
+Connect Github and choose to import a repository.
 
-### Configuring the Vercel Project
+![New Vercel project](images/vercel-create-project.jpg)
+
+Configure the Project settings by setting the Root Directory to `documentation`
+
+![Root Directory setting](images/vercel-project-configuration.jpg)
+
+Click "Deploy" and you now have fully connected documentation from your Github repo to the hosted Vercel site.
+
+![Project deployed](images/vercel-project-deployed.jpg)
+
+## Configuring an existing Vercel Project
 
 Navigate to the project settings page: `https://vercel.com/<org>/<project>/settings`.
 
