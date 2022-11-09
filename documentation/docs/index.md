@@ -39,3 +39,7 @@ Override the `Root Directory` to be `documentation`.
 ![Vercel Root Directory settings](images/vercel-settings-root-directory.jpg)
 
 Optional: Toggle the "Include source files outside of the Root Directory in the Build Step" off if you only need the contents in `/documentation`.
+
+## Vercel Preview Links
+
+When a PR is open, Vercel will also build a preview link of the documentation.
