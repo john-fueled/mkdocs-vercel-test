@@ -1,8 +1,20 @@
 {
   "name": "mkdocs-vercel-test",
   "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "mkdocs serve",
-    "build": "mkdocs build -d public"
-  }
+    "serve-docs": "cd ./documentation && npm run serve",
+    "build-docs": "cd ./documentation && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/john-fueled/mkdocs-vercel-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/john-fueled/mkdocs-vercel-test/issues"
+  },
+  "homepage": "https://github.com/john-fueled/mkdocs-vercel-test#readme"
 }
