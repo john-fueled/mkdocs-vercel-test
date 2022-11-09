@@ -1,5 +1,6 @@
 site_name: MkDocs Vercel Test
 
 theme:
+  name: material
   palette:
     scheme: slate
