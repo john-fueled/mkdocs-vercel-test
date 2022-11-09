@@ -12,7 +12,7 @@ This project contains the `documentation` subfolder where this MkDocs project li
 
 ### Configuring the Vercel Project
 
-Navigate to the project settings page: https://vercel.com/<org>/<project>/settings .
+Navigate to the project settings page: `https://vercel.com/<org>/<project>/settings`.
 
 Override the `Root Directory` to be `documentation`.
 
