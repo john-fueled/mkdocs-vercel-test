@@ -16,4 +16,4 @@ Navigate to the project settings page: `https://vercel.com/<org>/<project>/setti
 
 Override the `Root Directory` to be `documentation`.
 
-![Vercel Root Directory settings](../images/vercel-settings-root-directory.jpg)
+![Vercel Root Directory settings](images/vercel-settings-root-directory.jpg)
